@@ -20,6 +20,7 @@ This collaboration is performed directly, without intermediaries and with as lit
 # Edge Native Principles
 
 - [communicate locally](principles/communicate-locally.html)
+- [design for autonomy and collaboration](principles/autonomy-and-collaboration.html)
 - [communicate facts, not interpretation](principles/communicate-facts.html)
 - [accept uncertainty when making decisions](principles/accept-uncertainty.html)
 - [design the flow of information](principles/information-flow.html)
