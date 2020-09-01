@@ -10,7 +10,7 @@ The Internet started out promising *end-to-end connectivity* between computers o
 Edge Native brings ubiquitous networking down to the smallest scale:
 local collaboration between computers — edge devices — on tasks that do not require global resources.
 
-> Edge Native applications fulfill their function using local resources, communicating with local peers, without requiring synchronous access to remote resources.
+> Edge Native applications fulfil their function using local resources, communicating with local peers, without requiring synchronous access to remote resources.
 
 In particular, an Edge Native application running on an edge device may communicate with a [Cloud Native](https://www.cncf.io/) application to enable global workflows and information flow.
 But the mission critical paths of the Edge Native application do not depend on momentarily being able to reach that Cloud Native application.
