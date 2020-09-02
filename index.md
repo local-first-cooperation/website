@@ -26,6 +26,7 @@ This collaboration is performed directly, without intermediaries and with as lit
 - [design the flow of information](principles/information-flow.html)
 - [employ scoped consistency only where required](principles/scoped-consensus.html)
 - [decouple computation in space and time](principles/decouple-space-time.html)
+- [foresee dynamic changes in the network neighbourhood](principles/foresee-network-dynamics.html)
 
 The above are [derived from first principles](first-principles.html).
 
