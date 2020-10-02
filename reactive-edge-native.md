@@ -42,9 +42,9 @@ As such, these constraints bring the creation of Edge Native application closer 
 
 ## Edge Native applications need to be Reactive
 
-The Reactive Manifesto was written in 2013 with Cloud Native applications in mind; its main point was to acknowledge that we need a truly distributed application design in order to realize the gains offered by cloud infrastructure. The core tenets of responsiveness and resilience directly apply to Edge Native applications as well, which are naturally message-driven, while elasticity plays a different role: due to their local nature and their focus on peer-to-peer communication Edge Native applications are inherently scalable — even globally — as long as the locally necessary information for taking decisions fits on each host device.
+The [Reactive Manifesto](https://reactivemanifesto.org) was written in 2013 with Cloud Native applications in mind; its main point was to acknowledge that we need a truly distributed application design in order to realize the gains offered by cloud infrastructure. The core tenets of responsiveness and resilience directly apply to Edge Native applications as well, which are naturally message-driven, while elasticity plays a different role: due to their local nature and their focus on peer-to-peer communication Edge Native applications are inherently scalable — even globally — as long as the locally necessary information for taking decisions fits on each host device.
 
-Since many of the core principles and design patterns of Reactive Systems have a strong relationship to distributed systems and Edge Native applications are the ultimate form of distributed computing, it comes as no surprise that the Reactive Principles inherently apply to them as well.
+Since many of the core principles and design patterns of Reactive Systems have a strong relationship to distributed systems and Edge Native applications are the ultimate form of distributed computing, it comes as no surprise that the [Reactive Principles](https://principles.reactive.foundation/) inherently apply to them as well.
 
 ## Impedance matching between Edge Native and Cloud Native applications
 

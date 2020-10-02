@@ -35,7 +35,15 @@ And in this way, we can give everyone control over their data, to be shared will
 This document should be read by anyone who creates IT applications through which humans and/or machines interact.
 Even if you don’t agree with the goals, the below principles explain why not adhering to them creates software that is less robust and less useful than it could be.
 
+## What you can do
+
+This document is still in its infancy and needs to grow up.
+It would be most helpful if you could head over to [github](https://github.com/edge-native/website/) and suggest improvements or note shortcomings.
+We appreciate all inputs!
+
 # Swarm Computing Principles
+
+The following principles give rise to IT systems that stay maximally useful to their local end-users under all conditions:
 
 - [communicate locally](principles/communicate-locally.html)
 - [design for autonomy and collaboration](principles/autonomy-and-collaboration.html)
@@ -50,6 +58,6 @@ The above are [derived from first principles](first-principles.html).
 
 ## Relationship with the Reactive Manifesto
 
-The above principles have a remarkable overlap with the principles derived from the [Reactive Manifesto](https://reactivemanifesto.org).
+The above principles have a remarkable overlap with the [principles](https://principles.reactive.foundation/) derived from the [Reactive Manifesto](https://reactivemanifesto.org).
 This is not a coincidence: the desire to stay responsive on a single edge device shares a lot with ensuring that a cloud service stays responsive, even though the underlying infrastructure faces different challenges in detail.
 The confluence between Reactive principles for Edge Native and Cloud Native applications is elaborated in [this article](reactive-edge-native.html).
