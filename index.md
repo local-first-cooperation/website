@@ -1,23 +1,41 @@
 ---
 layout: default
-title: Edge Native
+title: Swarm Computing
 ---
 
-# What is Edge Native?
+# Robust collaboration between nearby computing devices
 
-*Edge Native* means *born and raised on the edge*, more precisely the edge of the global web of computer networks.
-The Internet started out promising *end-to-end connectivity* between computers on all continents, allowing collaboration on a global scale.
-Edge Native brings ubiquitous networking down to the smallest scale:
-local collaboration between computers — edge devices — on tasks that do not require global resources.
+_Since about a decade we are seeing tremendous growth in the capabilities of mobile computing devices.
+At the same time we are outfitting more and more things with computing capabilities and connect them to the Internet.
+Besides the undoubtedly useful global connectivity and the countless services that are provided thanks to it, we believe it is time to start making use of the information technology that we hold in our hands and that exists around us.
+We need to start using **local computing resources** to their full capability and employ IT for **collaboration between neighbors**._
 
-> Edge Native applications fulfil their function using local resources, communicating with local peers, without requiring synchronous access to remote resources.
+This document does not yet have a clear name itself and is related to a few other concepts:
 
-In particular, an Edge Native application running on an edge device may communicate with a [Cloud Native](https://www.cncf.io/) application to enable global workflows and information flow.
-But the mission critical paths of the Edge Native application do not depend on momentarily being able to reach that Cloud Native application.
-Edge Native applications practice the [local-first imperative](https://www.inkandswitch.com/local-first.html) while explicitly aiming for local collaboration with other devices.
-This collaboration is performed directly, without intermediaries and with as little infrastructure as possible; most importantly it is not performed via the cloud.
+- [local-first](https://www.inkandswitch.com/local-first.html)
+- “(mobile) edge device native” as opposed (and complementary) to [cloud native](https://www.cncf.io/)
+- “edge computing”, which unfortunately sees local computation only as pre-processor for the cloud, not independently
 
-# Edge Native Principles
+## Why this is important
+
+One example is **industrial manufacturing:** we as humankind owe our invaluable advancements in living standard, common wealth, and medical abilities to the efficient and repeatable production of goods of all kinds, be that food, furniture, clothing, or medicine.
+We can make industrial production even more efficient, less wasteful, and thus create more common wealth and human advancement by enlisting the help of IT on the factory shop-floor.
+But for that to be successful, these IT systems need to be as reliable as the paper-based processes that they replace.
+And they need to retain the distributed and resilient nature of our production plants — we must not make this backbone of our civilisation more brittle by centralising its decision-making processes.
+
+Another example is **collaboration between humans:** _TODO (Martin?), also link to local-first_
+
+Other examples include swarm intelligence within a **fleet of autonomous vehicles**, or the daily interactions between people and **services or goods we buy**.
+While there are some parts that are enabled by cloud computing, would it not be awesome to have the essential part — the local interaction — work independently of any centralised processing?
+This way, what must always work will work as long as two things are nearby and ready to interact.
+And in this way, we can give everyone control over their data, to be shared willingly where needed.
+
+## Who should read this
+
+This document should be read by anyone who creates IT applications through which humans and/or machines interact.
+Even if you don’t agree with the goals, the below principles explain why not adhering to them creates software that is less robust and less useful than it could be.
+
+# Swarm Computing Principles
 
 - [communicate locally](principles/communicate-locally.html)
 - [design for autonomy and collaboration](principles/autonomy-and-collaboration.html)
@@ -30,7 +48,7 @@ This collaboration is performed directly, without intermediaries and with as lit
 
 The above are [derived from first principles](first-principles.html).
 
-# Relationship with the Reactive Manifesto
+## Relationship with the Reactive Manifesto
 
 The above principles have a remarkable overlap with the principles derived from the [Reactive Manifesto](https://reactivemanifesto.org).
 This is not a coincidence: the desire to stay responsive on a single edge device shares a lot with ensuring that a cloud service stays responsive, even though the underlying infrastructure faces different challenges in detail.
