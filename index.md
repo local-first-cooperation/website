@@ -6,9 +6,9 @@ title: Swarm Computing
 # Robust collaboration between nearby computing devices
 
 _Since about a decade we are seeing tremendous growth in the capabilities of mobile computing devices.
-At the same time we are outfitting more and more things with computing capabilities and connect them to the Internet.
+At the same time we are outfitting more and more things with computing capabilities and connecting them to the Internet.
 Besides the undoubtedly useful global connectivity and the countless services that are provided thanks to it, we believe it is time to start making use of the information technology that we hold in our hands and that exists around us.
-We need to start using **local computing resources** to their full capability and employ IT for **collaboration between neighbors**._
+We need to start using **local computing resources** to their full capability and employ IT for **collaboration between neighbours**._
 
 This document does not yet have a clear name itself and is related to a few other concepts:
 
