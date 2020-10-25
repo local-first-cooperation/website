@@ -2,6 +2,8 @@
 layout: default
 ---
 
+> **NOTE:**<br/>This is not yet finished and therefore does not yet cover all principles.
+
 # Edge Native from First Principles
 
 ## Prelude: A Tale of Two Robots
@@ -47,4 +49,7 @@ In addition to the characteristics of the box Marvin will communicate that he wa
 
 ## Philosophy: Accept Uncertainty when Making Decisions
 
+TODO
 
+<div style="float:left"><a href="/#local-first-cooperation-principles">back to the overview</a></div>
+<div style="clear:both">
