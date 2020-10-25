@@ -54,7 +54,8 @@ This document does not yet have a final name itself and is related to a few othe
 - “(mobile) edge device native” as opposed to (and complementary to) [cloud native](https://www.cncf.io/)
 - “edge computing”, which so far unfortunately sees local computation only as pre-processor for the cloud, not independently
 
-After some introductory remarks, we formulate some [principles](#local-first-cooperation-principles) upon which software can be built allows _robust cooperation between nearby computing devices_.
+After some introductory remarks, we formulate [principles](#local-first-cooperation-principles) that must underlie all collaborative software that stays maximally useful under all operating conditions.
+These principles are derived from the idea that it should be enough for two computing devices to be connected to each other for them to cooperate, and to facilitate cooperation of their respective users.
 
 These principles have a remarkable overlap with the [reactive principles](https://principles.reactive.foundation/) derived from the [Reactive Manifesto](https://reactivemanifesto.org).
 This is not a coincidence:
@@ -100,7 +101,8 @@ If you want to help push this forward you are very welcome to join us:
 The following principles give rise to IT systems that stay maximally useful to their local end-users under all conditions:
 
 - [communicate locally](principles/communicate-locally.html)
-- [design for autonomy and cooperation](principles/autonomy-and-cooperation.html)
+- [build autonomous parts](principles/autonomy.html)
+- [design parts for cooperation](principles/cooperation.html)
 - [communicate facts, not interpretation](principles/communicate-facts.html)
 - [accept uncertainty when making decisions](principles/accept-uncertainty.html)
 - [foresee dynamic changes in the network neighbourhood](principles/foresee-network-dynamics.html)
@@ -108,7 +110,7 @@ The following principles give rise to IT systems that stay maximally useful to t
 These principles are [derived from first principles](first-principles.html).
 Adhering to the above principles implies some further constraints on software design:
 
-- [decouple computation in space and time](principles/decouple-space-time.html)
+- [hierarchical systems to cover space and time](principles/hierarchical-systems.html)
 - [employ scoped consistency only where required](principles/scoped-consensus.html)
 - [design the flow of information](principles/information-flow.html)
 
