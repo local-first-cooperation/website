@@ -23,6 +23,13 @@ Upon this basis we can build more complex interactions, forming hierarchical beh
 From the principles follow some further restrictions, most notably that we can only employ consensus (i.e. have a strongly consistent data model) when we can afford the latency and fallibility that come with it.
 The principles also give guidance in terms of software architecture, namely that data structures need to support evolution over time since we store facts, and that the flow of information is a primary design target.
 
+## The Plan
+
+Our plan is to create and refine software tools that make it simple and easy to build resilient software according to the principles outlined above.
+We aim for a multitude of tools to grow that each cover some particular part of the problem or an application domain.
+By adhering to the above principles, the software that will be built on these tools will be able to cooperate on a much larger scale, between different implementations.
+Out of this experience may eventually emerge a set of communication standards, but we deliberately do not start from that end — we let nature run its course to find the optimal solution.
+
 ## Get Involved
 
 The endeavour outlined above is far greater than any single person or organisation who contributes.
@@ -31,13 +38,6 @@ If you want to help push this forward you are very welcome to join us:
 - ask to join our [email group](https://groups.google.com/g/local-first-cooperation) (your address will only be visible to group admins)
 - review more material on this website and contribute to it [on github](https://github.com/local-first-cooperation/website)
 - spread the word by forwarding this information to those who you think should contribute
-
-## The Plan
-
-Our plan is to create and refine software tools that make it simple and easy to build resilient software according to the principles outlined above.
-We aim for a multitude of tools to grow that each cover some particular part of the problem or an application domain.
-By adhering to the above principles, the software that will be built on these tools will be able to cooperate on a much larger scale, between different implementations.
-Out of this experience may eventually emerge a set of communication standards, but we deliberately do not start from that end — we let nature run its course to find the optimal solution.
 
 ---
 
