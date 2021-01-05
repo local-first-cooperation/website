@@ -17,6 +17,6 @@ In these cases consensus needs to be used to decide which particular computing d
 When consensus is needed in local-first cooperation, it is established only between those devices that need to agree on a single outcome, and only for those decisions that require it.
 The result is then communicated as facts so that applications elsewhere may react to it in a fully autonomous fashion again, without spreading the need for consensus throughout the whole system.
 
-<div style="float:right">next: <a href="information-flow.html">Design the Flow of Information</a></div>
+<div style="float:right">next: <a href="communicate-facts.html">Communicate Events, not State</a></div>
 <div style="float:left"><a href="/#local-first-cooperation-principles">back to the overview</a></div>
 <div style="clear:both">

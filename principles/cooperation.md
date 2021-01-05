@@ -18,6 +18,6 @@ Designing an application for local-first cooperation also has consequences in it
 Both human and algorithmic consumers of the local data model will need to be aware of the current network connectivity in order to make best use of the system.
 This is important so that the user can judge the age and thus the reliability of the information they base their decisions on, and it gives them an indication when they can expect their decisions to have an effect on other parts of the system.
 
-<div style="float:right">next: <a href="communicate-facts.html">Communicate Facts, not Interpretation</a></div>
+<div style="float:right">next: <a href="accept-uncertainty.html">Accept Uncertainty when Making Decisions</a></div>
 <div style="float:left"><a href="/#local-first-cooperation-principles">back to the overview</a></div>
 <div style="clear:both">
