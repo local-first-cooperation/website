@@ -1,10 +1,11 @@
 ---
 layout: default
+title: Edge Native from First Principles
 ---
 
-> **NOTE:**<br/>This is not yet finished and therefore does not yet cover all principles.
-
-# Edge Native from First Principles
+> **NOTE:**
+>
+> This is not yet finished and therefore does not yet cover all principles.
 
 ## Prelude: A Tale of Two Robots
 
