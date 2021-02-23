@@ -36,6 +36,8 @@ We show them here to give you a better intuition of the scope of this paradigm.
 
 - **low-level machine control:** this is best done in hard real-time languages on specialised hardware, no data agency or ownership issues arise at this level (the next level up [fits very well](factory-automation.html), though)
 
+- **crypto currency wallets:** all transactions require acknowledgement by the global (and in this sense central!) blockchain, crypto currencies currently don’t work offline
+
 ## Where the jury is not yet in
 
 The following cases may benefit from local-first cooperation in principle, but it remains to be proven in practice to present a clear-cut case.
