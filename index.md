@@ -28,9 +28,11 @@ Finally, implementing autonomous parts is fostered by communicating events rathe
 
 more details:
 
-- [Robust cooperation between nearby computing devices](robust-cooperation.html)
+- [Embedding in the software landscape](robust-cooperation.html)
 - [The Principles](principles/index.html)
-- [Local-First Cooperation illustrated on real-world use-cases](use-cases/index.html)
+- [Local-first cooperation is Reactive](local-first-is-reactive.html)
+- [Illustration on real-world use-cases](use-cases/index.html)
+- [A word on sustainability](sustainability.html)
 
 ## The Plan
 
